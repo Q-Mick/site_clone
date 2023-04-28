@@ -1,0 +1,52 @@
+/* my color pallette */
+.bg-mint{
+  background-color: #07ab80;
+}
+
+.bg-gray{
+  background-color: #5b636e;
+}
+
+.font-exo{
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+.hero-img{
+  background-image: url("assetts/full-business.png");
+  min-height: 60vh;
+  background-position: center;
+  background-size: stretch;
+  background-repeat: none;
+}
+
+.txt-line{
+  border-left: 4px solid;
+  border-color: #07ab80;
+}
+
+@media (max-width: 768px) {
+  .hero-img{
+    background-image: url("");
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+  }
+}
+
+.glassCard{
+  background: rgba(15, 15, 15, 0.354);
+  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(15, 15, 15, 0.26);
+}
+
+.btn-custom{
+  /* height: 15px; */
+  background-color: var(--bs-primary);
+  font-size: 10px;
+  position: relative;
+}
