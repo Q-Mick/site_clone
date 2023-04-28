@@ -1,6 +1,6 @@
 /* my color pallette */
 .bg-mint{
-  background-color: #07ab80;
+  background-color: #1ed6a5;
 }
 
 .bg-gray{
@@ -33,6 +33,17 @@
     background-size: cover;
     background-repeat: none;
   }
+  
+}
+
+@media (max-width: 768px) {
+  .my-card{
+   display: none;
+  }
+}
+
+.card-move{
+  top
 }
 
 .glassCard{
