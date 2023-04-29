@@ -1,19 +1,49 @@
-/* my color pallette */
+
+ :root{
+--bg-grad: (90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37%, rgba(37,223,196,1) 73%)
+ }
+
+ body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+ /* my color pallette */
 .bg-mint{
   background-color: #1ed6a5;
 }
 
 .bg-gray{
-  background-color: #5b636e;
+  background-color: #a0dfba;
 }
 
 .font-exo{
   font-family: 'Exo 2', sans-serif;
 }
 
+.bg-grad{
+background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37%, rgba(37,223,196,1) 73%);
+}
+
+.card-shad {
+  
+  will-change: filter;
+  
+  transition: filter .2s ease-out;
+}
+
+.card-hov:hover{
+  /* height: 15rem; */
+  background-color:#1ed6a5;
+  outline: 2px solid black;;
+  filter: drop-shadow(10px 10px 35px black);
+}
 
 .hero-img{
-  background-image: url("assetts/full-business.png");
+  background-image: url("assetts/biz2.png");
   min-height: 60vh;
   background-position: center;
   background-size: stretch;
@@ -22,8 +52,18 @@
 
 .txt-line{
   border-left: 4px solid;
-  border-color: #07ab80;
+  border-color: #61eebf;
 }
+
+.my-text{
+  display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+}
+.my-text2{
+  text-align: -webkit-center;
+}
+
 
 @media (max-width: 768px) {
   .hero-img{
@@ -33,7 +73,6 @@
     background-size: cover;
     background-repeat: none;
   }
-  
 }
 
 @media (max-width: 768px) {
@@ -43,8 +82,23 @@
 }
 
 .card-move{
-  top
+  position: absolute;
 }
+@media (max-width: 768px) {
+  .card-move{
+    
+    position: static;
+  }
+} 
+
+.col-move{
+  order: 0;
+}
+@media (max-width: 768px) {
+  .col-move{
+  order: 1;
+  }
+} 
 
 .glassCard{
   background: rgba(15, 15, 15, 0.354);
@@ -61,3 +115,4 @@
   font-size: 10px;
   position: relative;
 }
+
