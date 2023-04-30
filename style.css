@@ -15,10 +15,6 @@
     scroll-behavior: smooth;
   }
 
-  #section1 {
-    height: 600px;
-  }
-
 }
  /* my color pallette */
 .bg-mint{
@@ -113,14 +109,17 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
 }
 @media (max-width: 768px) {
   .card-move1{
+    
    order: 3;
   }
 } 
 .card-move2{
+ 
   order: 0;
 }
 @media (max-width: 768px) {
   .card-move2{
+  
   order: 2;
   }
 } 
