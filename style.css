@@ -64,6 +64,13 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
   border-color: #61eebf;
 }
 
+@media (max-width: 768px) {
+  .txt-line{
+  display: none;
+  }
+}
+
+
 .my-text{
     /* flex-direction: row; */
     align-items: center;
@@ -71,15 +78,7 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
 
 
 
-@media (max-width: 768px) {
-  .hero-img{
-    background-image: url("");
-    min-height: 60vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-  }
-}
+
 
 @media (max-width: 768px) {
   .my-card{
