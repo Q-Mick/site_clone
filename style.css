@@ -8,8 +8,17 @@
 }
 @media (max-width: 979px) {
   body {
-    padding-top: 0px;
+    padding-top: 45px;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #section1 {
+    height: 600px;
+  }
+
 }
  /* my color pallette */
 .bg-mint{
@@ -78,15 +87,7 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
   }
 }
 
-.card-move{
-  position: absolute;
-}
-@media (max-width: 768px) {
-  .card-move{
-    
-    position: static;
-  }
-} 
+
 
 .col-move{
   order: 0;
@@ -99,6 +100,8 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
 
 .card-move{
   position: absolute;
+  top: 32rem;
+  left: 40rem;
 }
 @media (max-width: 768px) {
   .card-move{
