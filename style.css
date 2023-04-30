@@ -17,7 +17,7 @@
 }
 
 .bg-gray{
-  background-color: #a0dfba;
+  background-color: #4a4e4c;
 }
 
 .font-exo{
@@ -56,13 +56,10 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
 }
 
 .my-text{
-  display: flex;
     /* flex-direction: row; */
     align-items: center;
 }
-.my-text2{
-  text-align: -webkit-center;
-}
+
 
 
 @media (max-width: 768px) {
@@ -100,6 +97,51 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
   }
 } 
 
+.card-move{
+  position: absolute;
+}
+@media (max-width: 768px) {
+  .card-move{
+    
+    position: static;
+  }
+} 
+.card-move1{
+  order: 0;
+}
+@media (max-width: 768px) {
+  .card-move1{
+   order: 3;
+  }
+} 
+.card-move2{
+  order: 0;
+}
+@media (max-width: 768px) {
+  .card-move2{
+  order: 2;
+  }
+} 
+
+
+.card-move3{
+  order: 0;
+}
+@media (max-width: 768px) {
+  .card-move3{
+   order: 1;
+  }
+} 
+
+
+@media (max-width: 768px) {
+  .card-move{
+    
+    position: static;
+  }
+} 
+
+
 .glassCard{
   background: rgba(15, 15, 15, 0.354);
   
@@ -112,7 +154,7 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
 .btn-custom{
   /* height: 15px; */
   background-color: var(--bs-primary);
-  font-size: 10px;
-  position: relative;
+  font-size: 12px;
+ 
 }
 

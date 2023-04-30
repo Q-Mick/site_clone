@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
     <script src="app.js"></script>
     
 </head>
@@ -39,7 +38,7 @@
 </style>
 
 
-<body class=""
+<body class="">
   <!-- STUB header section -->
       <header class="container-fluid">
         <nav class="row bg-mint fixed-top">
@@ -57,12 +56,12 @@
         <section class="row hero-img bg-gray">
           <div class="col-12 col-md-4">
             
-            <div class="card glassCard m-5 p-2">
+            <div class="card glassCard m-4 p-2">
               <form class="text-white" action="">
                 <script>
                   event.preventDefault()
                 </script>
-                <div class="mb-3 mt-3">
+                <div class="mb-3 ">
                   <label class="form-label ms-2 pt-2" for="name">Name:</label>
                   <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter name">
                   <div id="name" class="form-text text-white"></div>
@@ -70,7 +69,7 @@
 
                 <div class="mb-3 mt-3">
                   <label for="email" class="form-label ms-2 pt-2">Email:</label>
-                  <input type="password" class="form-control" id="email" placeholder="Enter email" name="">
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="">
                 </div>
               <!-- comment section -->
                 <label for="comment">Comments:</label>
@@ -104,11 +103,11 @@
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat quaerat voluptatum.</small>
             </div>
           </div>
-          <div class="col p-5 position-relative">
+          <div class="col p-3 ">
             <div class="card text-start card-move">
               <!-- <img class="card-img-top" src="assetts/downtown.png" alt="Title"> -->
               <div class="card-body shadow">
-                <h5 class="card-title"> <i class="mdi mdi-wrench m-1"></i>Lorem ipsum dolor sit amet, consectetur.</h5>
+                <h5 class="card-title"> <i class="mdi mdi-wrench"></i> Lorem ipsum dolor sit amet, consectetur.</h5>
                 <h5 class="card-title"> <i class="mdi mdi-car"></i> Lorem ipsum dolor sit amet, consectetur.</h5>
                 <h5 class="card-title"> <i class="mdi mdi-phone"></i> Lorem ipsum dolor sit amet, consectetur.</h5>
                 <h5 class="card-title"> <i class="mdi mdi-home"></i> Lorem ipsum dolor sit amet, consectetur.</h5>
@@ -121,22 +120,25 @@
 
 
 
-        <section class="row p-5 bg-">
+        <section class="row p-3">
           <div class="col-12 col-md-5">
             <img class="img-fluid p-2 rounded-4" src="assetts/downtown.png" alt="loading">
           </div>
-          <div class="col my-text">
+          <div class="col">
 
-            <div class="d-flex flex-column my-text p-5">
+            <div class="d-flex flex-column my-text p-3">
             <h1>Entreprenuer magazine rates us as a top 5 start up for 2023</h1>
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, possimus quisquam ratione repudiandae harum optio laudantium commodi ullam aliquam dolor totam amet unde officiis dicta fugiat at incidunt? Vel quos expedita nemo recusandae officia sequi odit reprehenderit ipsum exercitationem porro. Laborum, magni quasi eum tempora, dolorum modi at repellendus ex aspernatur accusantium quas optio quisquam impedit sed obcaecati consequatur nisi?</small>
-            <div class="d-flex justify-content-between p-2"><button class="btn bg-grad rounded">Purchase</button></div>
-           </div>
+            <div class="d-flex justify-content-between p-2">
+              <button class="btn bg-grad rounded">Purchase</button>
+            </div>
+          </div>
           </div>
         </section>
 <!-- three card section with the highlighted one being larger and changing the order on smaller screens -->
-        <section class="row">
-          <div class="col-12 col-md my-text2 p-4 order-3">
+        <section class="row align-items-center">
+          <div class="col-1"></div>
+          <div class="col-12 col-md text-center p-4 card-move1">
             <!-- card one -->
             <div class="card card-hov card-shad" style="width: 18rem;">
               <div class="card-body shadow">
@@ -149,8 +151,8 @@
             </div>
           </div>
           <!-- card 2 -->
-          <div class="col-12 col-md my-text2 p-4 order-2">
-            <div class="card card-hov card-shad" style="width: 18rem;">
+          <div class="col-12 col-md text-center p-4 card-move2">
+            <div class="card card-hov card-shad" style="width: 18rem; height: 17rem;">
               <div class="card-body shadow">
                 <h5 class="card-title">Premium</h5>
                 <h6 class="card-subtitle mb-2 text-muted">$499.99</h6>
@@ -161,7 +163,7 @@
             </div>
           </div>
           <!-- card 3 -->
-          <div class="col-12 col-md my-text2 p-4 order-1">
+          <div class="col-12 col-md text-center p-4 card-move3">
             <div class="card card-hov card-shad" style="width: 18rem;">
               <div class="card-body shadow">
                 <h5 class="card-title">Lifetime</h5>
@@ -172,7 +174,7 @@
               </div>
             </div>
           </div>
-
+          <div class="col-1"></div>
         </section>
 <!-- last information section with contact information -->
 
