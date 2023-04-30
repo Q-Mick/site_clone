@@ -58,9 +58,7 @@
             
             <div class="card glassCard m-4 p-2">
               <form class="text-white" action="">
-                <script>
-                  event.preventDefault()
-                </script>
+              
                 <div class="mb-3 ">
                   <label class="form-label ms-2 pt-2" for="name">Name:</label>
                   <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter name">
@@ -95,17 +93,17 @@
           </div>
         </section>
 
-<!-- more information section with the absolute positioned card -->
+<!-- more information section with the absolute and relative positioned cards -->
         <section class="row bg-mint">
           <div class="col-12 col-md-5 col-move">
-            <div class="p-5">
+            <div class="p-4">
             <h4 class="">You don't want to be left behind</h4>
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat quaerat voluptatum.</small>
             </div>
           </div>
-          <div class="col p-3 ">
+          <div class="col p-3">
             <div class="card text-start card-move">
-              <!-- <img class="card-img-top" src="assetts/downtown.png" alt="Title"> -->
+              <!-- STUB Making use of the mdi library"> -->
               <div class="card-body shadow">
                 <h5 class="card-title"> <i class="mdi mdi-wrench"></i> Lorem ipsum dolor sit amet, consectetur.</h5>
                 <h5 class="card-title"> <i class="mdi mdi-car"></i> Lorem ipsum dolor sit amet, consectetur.</h5>
@@ -116,11 +114,10 @@
             </div>
           </div>
         </section>
+
 <!-- more information section with an image to the left and bodies of text to the right-->
 
-
-
-        <section class="row p-3">
+        <section class="row p-3 align-items-center">
           <div class="col-12 col-md-5">
             <img class="img-fluid p-2 rounded-4" src="assetts/downtown.png" alt="loading">
           </div>
@@ -130,13 +127,13 @@
             <h1>Entreprenuer magazine rates us as a top 5 start up for 2023</h1>
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, possimus quisquam ratione repudiandae harum optio laudantium commodi ullam aliquam dolor totam amet unde officiis dicta fugiat at incidunt? Vel quos expedita nemo recusandae officia sequi odit reprehenderit ipsum exercitationem porro. Laborum, magni quasi eum tempora, dolorum modi at repellendus ex aspernatur accusantium quas optio quisquam impedit sed obcaecati consequatur nisi?</small>
             <div class="d-flex justify-content-between p-2">
-              <button class="btn bg-grad rounded">Purchase</button>
+              <a href="#section1"></a><button class="btn bg-grad rounded"> <a href="#section1"> Purchase</button></a>
             </div>
           </div>
           </div>
         </section>
-<!-- three card section with the highlighted one being larger and changing the order on smaller screens -->
-        <section class="row align-items-center">
+<!-- STUB three card section with the highlighted one being larger and changing the order on smaller screens -->
+        <section class="row align-items-center" id="section1">
           <div class="col-1"></div>
           <div class="col-12 col-md text-center p-4 card-move1">
             <!-- card one -->
@@ -150,7 +147,7 @@
               </div>
             </div>
           </div>
-          <!-- card 2 -->
+          <!-- STUB card 2, larger for emphasis-->
           <div class="col-12 col-md text-center p-4 card-move2">
             <div class="card card-hov card-shad" style="width: 18rem; height: 17rem;">
               <div class="card-body shadow">
@@ -192,7 +189,7 @@
       <footer class="container-fluid">
         <section class="row bg-gray text-center">
           <div class="col-12">
-            <p>Made with 🌲🌲🌲by Quentin</p>
+            <p class="p-3">Made with 🌲🌲🌲by Quentin</p>
           </div>
         </section>
 
