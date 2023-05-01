@@ -134,11 +134,12 @@ background: linear-gradient(90deg, rgba(46,151,191,1) 15%, rgba(97,202,238,1) 37
   }
 } 
 
-
+.card-auto{
+  width: 18rem;
+}
 @media (max-width: 768px) {
-  .card-move{
-    
-    position: static;
+  .card-auto{
+   width: auto;
   }
 } 
 
